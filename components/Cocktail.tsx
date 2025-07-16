@@ -5,7 +5,7 @@ import { FaCheckCircle } from 'react-icons/fa'
 import { FaStar, FaStarHalf } from 'react-icons/fa6'
 import { SplitText } from 'gsap/all'
 import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+
 const Cocktail = () => {
     const mainTextRef = React.useRef<HTMLHeadingElement>(null);
     const sentenceRef = React.useRef<HTMLParagraphElement>(null);

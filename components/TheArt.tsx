@@ -90,7 +90,7 @@ const TheArt = () => {
 
         <div id='masked' className='mt-24 opacity-0 absolute bottom-0 left-0 right-0 flex flex-col items-center justify-center gap-4 text-center'>
             <p className='font-serif text-3xl'>Made with Craft, Poured with Passion</p>
-            <p className='text-sm text-white/70'>This isn't just a drink. It's a carefully crafted moment made just for you</p>
+            <p className='text-sm text-white/70'>This isn&apos;t just a drink. It&apos;s a carefully crafted moment made just for you</p>
         </div>
     </div>
   )

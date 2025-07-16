@@ -3,7 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 import { products } from '@/data'
 import { useState } from 'react'
-import next from 'next'
+
 
 const Carousel = () => {
     const [produce, setProduce] = useState(products[0])
@@ -25,7 +25,7 @@ const Carousel = () => {
     <div className='w-screen z-70 relative min-h-screen pt-48 md:px-16 px-6 flex flex-col items-center justify-center bg-black text-white'>
         <div className='flex flex-row max-md:flex-wrap gap-6 justify-between w-full md:px-44 px-4 '>
             {products.map((product, index) => (
-                <h1 onClick={() => handleTabChange(index)} className={`p-2  ${produce.name === product.name ? 'opacity-100':' opacity-60' } font-myfont md:text-3xl border-b-1 border-white`}>{product.name}</h1>
+                <h1 key={index} onClick={() => handleTabChange(index)} className={`p-2  ${produce.name === product.name ? 'opacity-100':' opacity-60' } font-myfont md:text-3xl border-b-1 border-white`}>{product.name}</h1>
             ))}
             
             

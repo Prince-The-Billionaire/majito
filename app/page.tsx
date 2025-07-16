@@ -2,7 +2,7 @@ import Carousel from '@/components/Carousel'
 import Cocktail from '@/components/Cocktail'
 import Footer from '@/components/Footer'
 import Hero from '@/components/Hero'
-import Navbar from '@/components/Navbar'
+
 import Section2 from '@/components/Section2'
 import TheArt from '@/components/TheArt'
 import gsap from 'gsap'
